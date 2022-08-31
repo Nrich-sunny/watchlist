@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ name }}'s Watchlist</title>
+    <title>{{ user.name }}'s Watchlist</title>
 </head>
 <body>
-    <h2>{{ name }}'s Watchlist ~~</h2>
+    <h2>{{ user.name }}'s Watchlist ~~</h2>
     <p>{{ movies|length }} Titles</p>
     <ul>
         {% for movie in movies %}
